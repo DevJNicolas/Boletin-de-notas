@@ -1,0 +1,76 @@
+body{
+    min-height: 100vh;
+    background-color:#dde4fd;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.mt{
+    margin-top: 20px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.my{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.d-none{
+    display: none;
+}
+
+.textInput{
+    width: 100%;
+}
+.containerSaveInputs{
+    margin: 11px 0px;
+
+}
+.containerInput{
+    margin: 11px 0px;
+}
+input, select{
+    border: 0px;
+    border-radius: 11px;
+    padding: 10px;
+
+}
+
+
+
+.container_title{
+    text-align: center;
+}
+.titles{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    border: 0px;
+    color: #fff;
+    font-size: 500;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#calification, #student{
+    margin: auto;
+    margin-top: 20px;
+    text-align: start;
+    width: 20%;
+    border-bottom: 1px solid orangered;
+}
+
+.nameCalification{
+    font-size: 20px;
+    
+}
+.numberCalification{
+    float: right;
+    color: orangered;
+    
+}
